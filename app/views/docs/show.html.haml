@@ -1,0 +1,12 @@
+<!-- Page for showing the document -->
+%h1= @doc.title
+%p= @doc.content
+
+-# <h1><%= @doc.title %></h1>
+-#
+-# <p><%= @doc.content %></p>
+-#
+-# <!-- Links to edit, all and delete -->
+-# <%= link_to "All Documents", docs_path %>
+-# <%= link_to "Edit Document", edit_doc_path(@doc) %>
+-# <%= link_to "Delete Document", doc_path(@doc), method: :delete, data: {confirm: "Are you sure?"} %>
