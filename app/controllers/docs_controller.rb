@@ -6,7 +6,6 @@ class DocsController < ApplicationController
   end
 
   def show
-    find_doc
   end
 
   def new
